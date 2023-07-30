@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap');
+*{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.joinpage{
+    background-color: rgb(31, 29, 29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joincontainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 0.2vmax solid white; */
+}
+
+.joincontainer > h1{
+    color: white;
+    font-size: 2.5vmax;
+    width: 25vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    padding: 1.5vmax;
+    box-sizing: border-box;
+}
+
+.joincontainer > img{
+    border: 2px solid white;
+    scale: 0.5;
+}
+
+#joininput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+}
+.joinbtn{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    color: white;
+    font-family: "Roboto";
+    outline: none;
+    font-size: 1.2vmax;
+   background-color: #5c8bff;
+   box-sizing: border-box;
+   transition: all 1s;
+   cursor: pointer;
+   border-radius: 4px;
+}
+.joinbtn:hover{
+    background-color: #044bff;
+}
+

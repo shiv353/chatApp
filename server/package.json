@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "chatApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "server",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "chatapp"
+  },
+  "keywords": [
+    "shiv"
+  ],
+  "author": "shiv",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
