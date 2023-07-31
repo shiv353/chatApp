@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 
 app.use(cors());
 const server=http.createServer(app);
-const port= 1900||process.env.PORT;
+const port= process.env.PORT||1900;
 const io=socketio(server);
 
 
