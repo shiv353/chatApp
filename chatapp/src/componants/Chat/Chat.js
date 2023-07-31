@@ -11,7 +11,8 @@ import closeIcon from "../img/closeIcon.png";
 
 
 let socket;
-const ENDPOINT = "http://localhost:1900/";
+// const ENDPOINT = "http://localhost:1900/";
+const ENDPOINT = "https://chat-app-gold-alpha.vercel.app/";
 
 
 const Chat = () => {
